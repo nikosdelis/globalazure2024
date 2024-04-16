@@ -1,0 +1,40 @@
+# .NET Core / .NET Standard
+*.dll
+*.exe
+*.pdb
+*.dll.config
+*.exe.config
+*.deps.json
+*.runtimeconfig.json
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Oo]bj/
+[Bb]in/
+
+# Visual Studio files
+.vs/
+*.vscode/
+*.sln
+*.suo
+*.user
+*.userprefs
+*.proj
+*.user
+*.vspscc
+*.vssscc
+*.vssettings
+*.vsmacros
+*.csproj.user
+*.xaml.user
+*.xproj.user
+*.nuget/
+*.dotnet/
+*.swp
+*.bak
+*.cache
+*.log
+*.vsix
