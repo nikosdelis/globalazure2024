@@ -13,7 +13,7 @@ namespace SimulatedDevice
     class Program
     {
         private static DeviceClient s_deviceClient;
-        private static readonly string s_connectionString = "";
+        private static readonly string s_connectionString = Environment.GetEnvironmentVariable("IOTHUB_DEVICE_CONNECTION_STRING")!;
 
         private static async Task SendDeviceToCloudMessagesAsync()
         {
